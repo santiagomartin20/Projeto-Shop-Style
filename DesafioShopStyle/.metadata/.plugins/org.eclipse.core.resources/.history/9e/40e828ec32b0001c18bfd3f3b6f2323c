@@ -1,0 +1,7 @@
+
+package com.ss.Checkout.client;
+
+@Feign
+public interface CustomerClient {
+
+}

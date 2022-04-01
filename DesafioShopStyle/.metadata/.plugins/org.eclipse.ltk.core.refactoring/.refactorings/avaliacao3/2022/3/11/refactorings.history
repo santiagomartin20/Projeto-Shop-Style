@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AssociadoController.java&apos; to &apos;shopStyle/src/main/java/com.desafio.shopStyle.controller&apos;&#x0D;&#x0A;- Original project: &apos;avaliacao3&apos;&#x0D;&#x0A;- Destination element: &apos;shopStyle/src/main/java/com.desafio.shopStyle.controller&apos;&#x0D;&#x0A;- Original element: &apos;br.com.avaliacao4.controller.AssociadoController.java&apos;" description="Copy compilation unit" destination="=shopStyle/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.desafio.shopStyle.controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.avaliacao4.controller{AssociadoController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1646765823348" units="1" version="1.0"/>
+</session>

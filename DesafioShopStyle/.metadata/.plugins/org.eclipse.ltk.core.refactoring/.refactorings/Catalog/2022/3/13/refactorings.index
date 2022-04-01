@@ -1,0 +1,17 @@
+1647874010692	Rename type 'variations'
+1647874181841	Rename local variable 'porduct'
+1647881804597	Rename local variable 'products'
+1647881875450	Rename local variable 'products'
+1647882020545	Rename local variable 'products'
+1647882110710	Rename local variable 'product'
+1647954214849	Delete element
+1647954651114	Rename type 'ProductDto'
+1647954760896	Rename type 'CategoriesDto'
+1647954929534	Rename local variable 'porduct'
+1647962068863	Rename local variable 'products'
+1647968504674	Rename field 'category_ids'
+1647969748689	Extract method 'idCategorias'
+1647973506991	Rename package 'br.com.avaliacao4.configValidacion'
+1647978689476	Extract method 'ProductId'
+1648041246149	Rename field 'category_ids'
+1648066134444	Copy package

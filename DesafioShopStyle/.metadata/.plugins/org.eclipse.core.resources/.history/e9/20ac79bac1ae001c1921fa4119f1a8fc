@@ -1,0 +1,35 @@
+package com.ss.Checkout.controller.form;
+
+import java.util.List;
+
+public class PurchasesForm {
+
+	private int user_id;
+	private int payment_id;
+	private List<CartForm> cart;
+
+	public int getUser_id() {
+		return user_id;
+	}
+
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
+	}
+
+	public int getPayment_id() {
+		return payment_id;
+	}
+
+	public void setPayment_id(int payment_id) {
+		this.payment_id = payment_id;
+	}
+
+	public List<CartForm> getCart() {
+		return cart;
+	}
+
+	public void setCart(List<CartForm> cart) {
+		this.cart = cart;
+	}
+
+}

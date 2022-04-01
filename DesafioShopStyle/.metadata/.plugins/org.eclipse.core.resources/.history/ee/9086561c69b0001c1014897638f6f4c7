@@ -1,0 +1,29 @@
+package com.ss.Checkout.controller.dto;
+
+public class InfoPaymentDTO {
+	
+	private Long id;
+	private String type;
+	private int discount;
+	private boolean status;
+	
+	public Long getId() {
+		return id;
+	}
+	public String getType() {
+		return type;
+	}
+	public int getDiscount() {
+		return discount;
+	}
+	public boolean isStatus() {
+		return status;
+	}
+	@Override
+	public String toString() {
+		return "InfoPaymentDTO [id=" + id + ", type=" + type + ", discount=" + discount + ", status=" + status + "]";
+	}
+	
+	
+
+}

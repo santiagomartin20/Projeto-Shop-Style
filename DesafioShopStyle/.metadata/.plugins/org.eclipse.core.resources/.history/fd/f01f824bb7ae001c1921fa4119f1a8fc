@@ -1,0 +1,5 @@
+package com.ss.Checkout.controller.form;
+
+public class purchasesForm {
+
+}

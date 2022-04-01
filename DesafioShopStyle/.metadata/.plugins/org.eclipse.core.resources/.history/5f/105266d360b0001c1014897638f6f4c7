@@ -1,0 +1,10 @@
+package com.ss.Checkout.controller.dto;
+
+public class InfoPaymentDTO {
+	private  boolean activeFormaDePago;
+
+	public boolean isActiveFormaDePago() {
+		return activeFormaDePago;
+	}
+
+}

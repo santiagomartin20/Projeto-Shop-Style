@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/shopStyle/src/main/java/com/desafio/shopStyle/ShopStyleApplication.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.desafio.shopStyle.ShopStyleApplication"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="shopStyle"/>
+</launchConfiguration>

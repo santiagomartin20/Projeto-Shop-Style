@@ -1,0 +1,18 @@
+package com.ss.Checkout.service;
+
+import org.springframework.http.HttpMethod;
+import org.springframework.web.client.RestTemplate;
+
+import com.ss.Checkout.controller.dto.InfoUserDTO;
+import com.ss.Checkout.controller.form.PurchasesForm;
+
+public class PurchasesService {
+
+	public void realizaCompra(PurchasesForm form) {
+
+		RestTemplate client = new RestTemplate();
+		client.exchange("localhost:9090/v1/users/"+form.getUser_id(), HttpMethod.GET, null, InfoUserDTO.class);
+	}
+
+	
+}

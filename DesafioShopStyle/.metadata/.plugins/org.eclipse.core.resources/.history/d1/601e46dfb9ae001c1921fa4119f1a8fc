@@ -1,0 +1,12 @@
+package com.ss.Checkout.controller.form;
+
+import java.util.List;
+
+public class PurchasesForm {
+
+	private int user_id;
+	private int	payment_id;
+	private List<CartForm>cart;
+	
+	
+}

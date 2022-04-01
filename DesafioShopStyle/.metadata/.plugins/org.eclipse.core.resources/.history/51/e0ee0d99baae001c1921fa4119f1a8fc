@@ -1,0 +1,18 @@
+package com.ss.Checkout.controller;
+
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ss.Checkout.controller.form.PurchasesForm;
+
+@RestController
+@RequestMapping("/v1/purchases")
+public class PurchasesController {
+
+	@RequestMapping(method = RequestMethod.POST)
+	public void postPurchases(@RequestBody PurchasesForm form) {
+		
+	}
+}

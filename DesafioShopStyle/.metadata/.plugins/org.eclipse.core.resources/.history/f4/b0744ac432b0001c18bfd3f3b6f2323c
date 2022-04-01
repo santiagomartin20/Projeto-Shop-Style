@@ -1,0 +1,23 @@
+package com.ss.Checkout.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.ss.Checkout.controller.dto.InfoUserDTO;
+import com.ss.Checkout.controller.form.PurchasesForm;
+
+@Service
+public class PurchasesService {
+	
+
+	public void realizaCompra(PurchasesForm form) {
+
+
+		System.out.println(exchange.getBody().getId_usuario());
+	}
+
+	
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.ss.Checkout.client;
+
+/**
+ * @author santiago.martin
+ *
+ */
+public interface CustomerClient {
+
+}

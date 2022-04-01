@@ -1,0 +1,33 @@
+package com.ss.Checkout.controller.dto;
+
+public class InfoPedidoDTO {
+
+	private  boolean activeUsuario;
+	private  boolean activeFormaDePago;
+	private  List<boolean> activeProducto;
+	
+	public boolean isActiveUsuario() {
+		return activeUsuario;
+	}
+	public void setActiveUsuario(boolean activeUsuario) {
+		this.activeUsuario= activeUsuario;
+	}
+	public boolean isActiveFormaDePago() {
+		return activeFormaDePago;
+	}
+	public void setActiveFormaDePago(boolean activeFormaDePago) {
+		this.activeFormaDePago = activeFormaDePago;
+	}
+	public boolean isActiveProducto() {
+		return activeProducto;
+	}
+	public void setActiveProducto(boolean activeProducto) {
+		this.activeProducto = activeProducto;
+	}
+	
+	
+
+
+	
+	
+}

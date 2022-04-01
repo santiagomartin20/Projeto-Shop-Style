@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\configserver"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\eurekaserver"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\Checkout"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\Catalog\Catalog"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\Customer\Customer"/>
+			<item value="C:\Users\santiago.martin\Downloads\projeto-inicial\forum"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\APIShopStyle"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\1237-springapi-aula7"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\1236-springapi-aula3"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\demo"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\PartidoPolitico\Avaliacion4-main\avaliacao4"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\ShopStyle\shopStyle"/>
+			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\APIposto\projetoFinal-create\SpringBootPosto"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="Inicio Curso2"/>
+			<item value="Alura2"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

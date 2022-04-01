@@ -1,0 +1,21 @@
+package com.ss.Checkout.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.ss.Checkout.client.CustomerClient;
+import com.ss.Checkout.controller.form.PurchasesForm;
+
+@Service
+public class PurchasesService {
+	
+	@Autowired
+	private CustomerClient customerClient;
+
+	public void realizaCompra(PurchasesForm form) {
+
+
+	}
+
+	
+}

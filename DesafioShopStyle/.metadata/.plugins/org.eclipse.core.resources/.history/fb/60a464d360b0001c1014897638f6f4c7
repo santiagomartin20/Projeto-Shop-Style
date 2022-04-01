@@ -1,0 +1,6 @@
+package com.ss.Checkout.controller.dto;
+
+public class InfoProductoDTO {
+	private  boolean activeProducto;
+
+}

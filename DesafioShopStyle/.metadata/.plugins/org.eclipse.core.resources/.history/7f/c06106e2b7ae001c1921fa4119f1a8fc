@@ -1,0 +1,23 @@
+package com.ss.Checkout.controller.form;
+
+public class PurchasesForm {
+
+	int user_id
+		payment_id
+		cart
+	
+	{
+		"user_id": 1,
+		"payment_id": 1
+		"cart": [
+		{
+		"variant_id": 1,
+		"quantity": 1
+		},
+		{
+		"variant_id": 2,
+		"quantity": 5
+		}
+		]
+		}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;br.com.avaliacao4.configValidacion&apos; to &apos;Catalog/src/main/java/com.ss.Catalog&apos;&#x0D;&#x0A;- Original project: &apos;avaliacao3&apos;&#x0D;&#x0A;- Destination element: &apos;Catalog/src/main/java/com.ss.Catalog&apos;&#x0D;&#x0A;- Original element: &apos;avaliacao3/src/main/java/br.com.avaliacao4.configValidacion&apos;" description="Copy package" destination="=Catalog/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ss.Catalog" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;br.com.avaliacao4.configValidacion" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1647973466009" version="1.0"/>
+</session>

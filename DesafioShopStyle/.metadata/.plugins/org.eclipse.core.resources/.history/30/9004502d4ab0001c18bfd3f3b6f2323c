@@ -1,0 +1,25 @@
+package com.ss.Checkout.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.util.SystemPropertyUtils;
+
+import com.ss.Checkout.client.CustomerClient;
+import com.ss.Checkout.controller.dto.InfoUserDTO;
+import com.ss.Checkout.controller.form.PurchasesForm;
+
+@Service
+public class PurchasesService {
+	
+	@Autowired
+	private CustomerClient customerClient;
+
+	public void realizaCompra(PurchasesForm form) {
+		
+		InfoUserDTO detalhar = customerClient.detalhar(form.getUser_id());
+
+		System.out.println(detalhar.getId_usuario());
+	}
+
+	
+}
