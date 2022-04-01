@@ -1,0 +1,14 @@
+package com.ss.Checkout.controller.dto;
+
+public class InfoPedidoErroDTO {
+
+	private String Erro;
+
+	public String getErro() {
+		return Erro;
+	}
+
+	public void setErro(String erro) {
+		Erro = erro;
+	}
+}

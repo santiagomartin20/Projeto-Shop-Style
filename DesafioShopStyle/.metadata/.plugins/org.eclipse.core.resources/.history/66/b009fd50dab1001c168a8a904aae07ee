@@ -1,0 +1,11 @@
+package com.ss.Checkout.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.ss.Checkout.model.Purchases;
+
+@Repository
+public interface CheckoutRepository extends CrudRepository<Purchases, Long>{
+
+}
