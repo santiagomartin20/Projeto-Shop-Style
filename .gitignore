@@ -1,0 +1,7 @@
+.plugins
+.plugins/*
+*.plugins
+
+*.metadata
+.metadata
+.metadata/*
