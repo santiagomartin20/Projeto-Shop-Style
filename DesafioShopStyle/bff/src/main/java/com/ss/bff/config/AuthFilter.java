@@ -36,6 +36,7 @@ public class AuthFilter extends AbstractGatewayFilterFactory<AuthFilter.Config>{
 				return onError(exchange, HttpStatus.BAD_REQUEST);
 			}
 			
+			System.out.println("Validando Token via Gateway");
 			return webClient.build()
 					.post()
 					.uri("http://auth/validate?token=" + chunks[1])

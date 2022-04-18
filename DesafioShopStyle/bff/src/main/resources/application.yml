@@ -18,12 +18,19 @@ spring:
         uri: lb://customer
         predicates:
         - Path=/v1/users/**
+        filters:
+        - AuthFilter
+      - id: catalog
+        uri: lb://catalog
+        predicates:
+        - Path=/v1/products/**
+        filters:
+        - AuthFilter
       - id: auth
         uri: lb://auth
         predicates:
         - Path=auth/**
-        filters:
-        - AuthFilter
+      
         
 
 
