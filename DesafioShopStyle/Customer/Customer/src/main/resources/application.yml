@@ -1,0 +1,19 @@
+eureka:
+  client:
+    fetch-registry: 'true'
+    register-with-eureka: true
+    service-url:
+      defaulZone: http://localhost:8761/eureka/apps
+server:
+  port: 9090
+spring:
+  application:
+    name: customer
+  datasource:
+    driverClassName: org.postgresql.Driver
+    password: root
+    url: jdbc:postgresql://localhost:5432/SSBD
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update

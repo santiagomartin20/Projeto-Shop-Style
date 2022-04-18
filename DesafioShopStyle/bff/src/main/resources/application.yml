@@ -1,0 +1,35 @@
+server:
+  port: 9093
+
+eureka:
+  client:
+    fetch-registry: true 
+    register-with-eureka: true
+    service-url:
+      defaulZone: http://localhost:8761/eureka/apps      
+       
+spring:
+  application:
+    name: bff
+  cloud:
+    gateway:
+      routes:
+      - id: customer
+        uri: lb://customer
+        predicates:
+        - Path=/v1/users/**
+      - id: auth
+        uri: lb://auth
+        predicates:
+        - Path=auth/**
+        filters:
+        - AuthFilter
+        
+
+
+
+
+  
+    
+
+     

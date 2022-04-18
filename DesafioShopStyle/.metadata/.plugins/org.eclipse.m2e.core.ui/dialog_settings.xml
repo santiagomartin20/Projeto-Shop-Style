@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\santiago.martin\Documents\Github\Projeto-Shop-Style\DesafioShopStyle\eurekaserver"/>
+			<item value="C:\Users\santiago.martin\Documents\Github\Projeto-Shop-Style\DesafioShopStyle\Customer\Customer"/>
+			<item value="C:\Users\santiago.martin\Documents\Github\Projeto-Shop-Style\DesafioShopStyle\Catalog\Catalog"/>
+			<item value="C:\Users\santiago.martin\Documents\Github\Projeto-Shop-Style\DesafioShopStyle\bff"/>
 			<item value="C:\Users\santiago.martin\Documents\Github\Projeto-Shop-Style\DesafioShopStyle\Checkout"/>
 			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\configserver"/>
 			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\eurekaserver"/>
@@ -13,9 +17,6 @@
 			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\1237-springapi-aula7"/>
 			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\1236-springapi-aula3"/>
 			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\demo"/>
-			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\PartidoPolitico\Avaliacion4-main\avaliacao4"/>
-			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\ShopStyle\shopStyle"/>
-			<item value="C:\Users\santiago.martin\Downloads\Ejemplos\APIposto\projetoFinal-create\SpringBootPosto"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="Inicio Curso2"/>
